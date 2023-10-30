@@ -1,0 +1,37 @@
+.menu2 {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    line-height: 120%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    height: 3.33rem;
+}
+.menu1 {
+    position: relative;
+    border-radius: var(--br-3xs);
+    background-color: var(--foundation-blue-blue-600);
+    width: 20rem;
+    height: 3rem;
+}
+.menu {
+    position: relative;
+    background-color: var(--foundation-blue-blue-600);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1rem 0rem;
+    box-sizing: border-box;
+    gap: 1rem;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    text-align: center;
+    font-size: 1.67rem;
+    color: var(--foundation-white-white-200);
+    font-family: var(--font-poppins);
+}
+

@@ -1,0 +1,15 @@
+.who-am-i {
+    top: 0rem;
+    left: 0rem;
+    line-height: 120%;
+}
+.container-about {
+    position: relative;
+    width: 100%;
+    height: 1.32rem;
+    text-align: center;
+    font-size: 1.11rem;
+    color: var(--foundation-grey-grey-400);
+    font-family: var(--font-open-sans);
+}
+

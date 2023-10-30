@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;700&display=swap');
+body {
+  margin: 0; line-height: normal;
+}
+:root {
+
+  /* fonts */
+  --font-poppins: Poppins;
+  --header-2-semibold: Poppins;
+  --text-base-regular: 'Open Sans';
+  --font-open-sans: 'Open Sans';
+
+  /* font sizes */
+  --text-base-regular-size: 1rem;
+  --text-lg-regular-size: 1.5rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.13rem;
+  --font-size-xl: 1.25rem;
+  --font-size-30xl-7: 3.11rem;
+  --font-size-48xl-5: 4.22rem;
+  --font-size-mid-8: 1.11rem;
+  --font-size-7xl-7: 1.67rem;
+  --header-2-semibold-size: 1.5rem;
+  --text-md-bold-size: 1.13rem;
+
+
+  /* Colors */
+  --foundation-white-white-200: #fff;
+  --foundation-blue-blue-500: #1b1f84;
+  --foundation-blue-blue-600: #191c78;
+  --foundation-blue-blue-700: #13165e;
+  --color-lightsteelblue-100: #c6d7ff;
+  --foundation-blue-blue-100: #b8bad9;
+  --foundation-black-black-500: #000;
+  --foundation-grey-grey-700: #2c2b2b;
+  --foundation-grey-grey-900: #1a1919;
+  --color-gray-100: rgba(0, 0, 0, 0.2);
+  --foundation-grey-grey-400: #656363;
+  --foundation-black-black-400: #333;
+
+  /* Gaps */
+  --gap-13xl: 2rem;
+  --gap-10xl-2: 1.83rem;
+  --gap-base: 1rem;
+  --gap-6xs-6: 0.41rem;
+
+  /* Paddings */
+  --padding-base: 1rem;
+  --padding-mini-6: 0.91rem;
+  --padding-3xs-1: 0.57rem;
+
+  /* Border radiuses */
+  --br-sm-7: 13.7px;
+  --br-3xs: 10px;
+  --br-mini: 15px;
+
+}

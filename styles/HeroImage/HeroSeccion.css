@@ -1,0 +1,16 @@
+.hero-seccion {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0rem var(--padding-base);
+    box-sizing: border-box;
+    gap: var(--gap-base);
+    text-align: center;
+    font-size: var(--font-size-base);
+    color: var(--foundation-black-black-400);
+    font-family: var(--font-open-sans);
+}
+

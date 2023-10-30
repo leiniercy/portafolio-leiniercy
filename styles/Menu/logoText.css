@@ -1,0 +1,10 @@
+.logo {
+    position: relative;
+    font-size: 1.58rem;
+    line-height: 120%;
+    font-weight: 600;
+    font-family: var(--font-poppins);
+    color: var(--foundation-white-white-200);
+    text-align: center;
+}
+

@@ -1,0 +1,14 @@
+.skill-seccion {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+    font-size: 3.11rem;
+    color: rgba(0, 0, 0, 0.2);
+    font-family: var(--font-poppins);
+}
+

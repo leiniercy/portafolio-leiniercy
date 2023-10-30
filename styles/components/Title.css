@@ -1,0 +1,46 @@
+.m {
+    position: relative;
+    line-height: 120%;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.85rem;
+    height: 2.71rem;
+    flex-shrink: 0;
+}
+.span {
+    color: var(--foundation-white-white-200);
+}
+.resume {
+    font-size: 1.25rem;
+    color: #1b1f84;
+}
+.my-title {
+    position: relative;
+    line-height: 120%;
+    font-weight: 600;
+    margin-left: -0.83rem;
+    font-size: 1.13rem;
+    color: #000;
+}
+.title-seccion {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+.title {
+    position: relative;
+    background-color: var(--foundation-white-white-200);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 3.11rem;
+    color: rgba(0, 0, 0, 0.2);
+    font-family: var(--font-poppins);
+}
+

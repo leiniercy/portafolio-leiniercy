@@ -1,0 +1,16 @@
+.hero-image {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-base) 0rem;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: var(--font-size-base);
+    color: var(--foundation-black-black-400);
+    font-family: var(--font-open-sans);
+}
+

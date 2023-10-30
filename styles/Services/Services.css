@@ -1,0 +1,15 @@
+.services {
+    position: relative;
+    width: 288px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    text-align: center;
+    font-size: 1.25rem;
+    color: var(--foundation-black-black-500);
+    font-family: var(--font-poppins);
+}
+
+
