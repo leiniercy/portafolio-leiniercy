@@ -5,7 +5,7 @@ import HeroSeccion from "@components/HeroImage/HeroSeccion";
 
 const HeroImage = () => {
     return (
-        <div className="hero-image">
+        <div id="hero" className="hero-image">
             <HeroSeccion/>
         </div>);
 };

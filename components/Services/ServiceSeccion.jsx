@@ -5,7 +5,7 @@ import Title from "@components/Title";
 
 const ServiceSeccion = () => {
     return (
-        <div className="service-seccion">
+        <div id="service" className="service-seccion">
             <Title name={'SERVICES'}/>
            <Services/>
         </div>);

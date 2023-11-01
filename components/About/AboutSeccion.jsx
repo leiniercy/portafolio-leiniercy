@@ -11,7 +11,7 @@ import ContainerContact from "@components/About/ContainerContact";
 
 const AboutSeccion = () => {
     return (
-        <div className="about-seccion">
+        <div id="about" className="about-seccion">
             <Title name={'RESUME'}/>
             <ContainerAbout/>
             <ContainerName/>

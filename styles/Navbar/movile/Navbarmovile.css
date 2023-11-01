@@ -1,11 +1,11 @@
-.logo {
+.navbar-logo {
     position: absolute;
     top: 1rem;
     left: 1.07rem;
     line-height: 120%;
     font-weight: 600;
 }
-.iconmenu {
+.navbar-icon-menu {
     position: absolute;
     height: calc(100% - 32px);
     top: 1rem;
@@ -27,14 +27,41 @@
     background-color: var(--foundation-blue-blue-700);
     overflow: hidden;
 }
-.navbarmovile {
-    position: relative;
+.navbar-container-movile {
+    position: fixed;
     width: 100%;
+    /*top: 31.5rem;*/
+    bottom: 0rem;
+    right: 0rem;
+    left: 0rem;
     height: 4rem;
-    text-align: center;
     font-size: 1.58rem;
     color: var(--foundation-white-white-200);
+    z-index: 100;
+}
+
+.navbar-sidebar{
+    background-color: var(--foundation-blue-blue-600);
+}
+
+.navbar-sidebar-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 100%;
+}
+
+.navbar-sidebar-header-name{
+    line-height: 120%;
+    font-weight: 600;
+    font-size: 1.67rem;
+    color: var(--foundation-white-white-200);
     font-family: var(--font-poppins);
+    width: auto;
 }
 
 

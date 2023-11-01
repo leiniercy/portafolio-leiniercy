@@ -5,7 +5,7 @@ import Skills from "@components/Skills/Skills";
 
 const SkillSeccion = () => {
     return (
-        <div className="skill-seccion">
+        <div id="skill" className="skill-seccion">
             <Title name={'SKILLS'}/>
            <Skills/>
         </div>);
