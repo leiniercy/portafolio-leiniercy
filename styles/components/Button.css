@@ -1,4 +1,9 @@
-.button1 {
+.button-name a{
+    text-decoration: none;
+    color: var(--foundation-white-white-200);
+}
+
+.button-name {
     position: absolute;
     top: calc(50% - 10px);
     left: calc(50% - 144px);
