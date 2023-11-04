@@ -17,7 +17,7 @@ const AboutSeccion = () => {
             <ContainerName/>
             <AboutImageContainer/>
             <ContainerAboutDescription/>
-            <div className="about-container-button" style={{width: '288px'}}>
+            <div className="about-container-button">
                 <Button name={'DOWNLOAD CV'}/>
             </div>
             <ContainerContact/>

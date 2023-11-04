@@ -27,3 +27,34 @@
     font-family: var(--font-poppins);
 }
 
+@media (min-width: 744px) {
+    .leinier-caraballo-yanes {
+        position: relative;
+        line-height: 120%;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 39.4rem;
+    }
+    .teacher-web {
+        position: relative;
+        font-size: 1.50rem;
+        line-height: 120%;
+        font-family: var(--font-open-sans);
+        color: var(--foundation-grey-grey-400);
+    }
+    .container-name {
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 2rem;
+        color: #000;
+        font-family: var(--font-poppins);
+    }
+}
+

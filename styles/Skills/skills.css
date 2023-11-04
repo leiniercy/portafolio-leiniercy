@@ -12,3 +12,22 @@
     font-family: var(--font-open-sans);
 }
 
+@media (min-width: 744px) {
+    .skills {
+        position: relative;
+        width: 60%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 4rem;
+        text-align: center;
+        font-size: 2.62rem;
+        color: var(--foundation-black-black-500);
+        font-family: var(--font-open-sans);
+    }
+}
+
+
+

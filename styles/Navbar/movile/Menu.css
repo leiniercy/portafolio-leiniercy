@@ -1,4 +1,4 @@
-a .menu-item-name:hover{
+a .menu-item-name:hover {
     color: var(--foundation-blue-blue-600);
     text-decoration: none;
 }
@@ -7,6 +7,7 @@ a .menu-item-name {
     color: var(--foundation-white-white-200);
     text-decoration: none;
 }
+
 .menu-item-name {
     position: absolute;
     top: 0rem;
@@ -18,7 +19,8 @@ a .menu-item-name {
     width: 20rem;
     height: 3.33rem;
 }
-.menu-item:hover{
+
+.menu-item:hover {
     background-color: var(--foundation-white-white-200);
     color: var(--foundation-blue-blue-600);
 }
@@ -30,6 +32,7 @@ a .menu-item-name {
     width: 20rem;
     height: 3rem;
 }
+
 .menu {
     position: relative;
     background-color: var(--foundation-blue-blue-600);
@@ -46,5 +49,47 @@ a .menu-item-name {
     font-size: 1.67rem;
     color: var(--foundation-white-white-200);
     font-family: var(--font-poppins);
+}
+
+
+@media (min-width: 744px) {
+
+    .md\:menu-item-name {
+        position: absolute;
+        top: 0rem;
+        left: 0rem;
+        line-height: 120%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 46.5rem;
+        height: 7.75rem;
+    }
+
+    .md\:menu-item {
+        position: relative;
+        border-radius: 23.25px;
+        background-color: var(--foundation-blue-blue-600);
+        width: 46.5rem;
+        height: 6.98rem;
+    }
+
+    .md\:menu {
+        position: relative;
+        background-color: var(--foundation-blue-blue-600);
+        width: 100%;
+        height: 74.4rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 2rem 0rem;
+        box-sizing: border-box;
+        gap: 3rem;
+        text-align: center;
+        font-size: var(--font-size-43xl);
+        color: var(--foundation-white-white-200);
+        font-family: var(--font-poppins);
+    }
 }
 

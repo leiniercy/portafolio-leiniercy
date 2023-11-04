@@ -12,4 +12,11 @@
     font-family: var(--font-poppins);
 }
 
+@media (min-width: 744px) {
+    .services {
+        width: 50%;
+        font-size: 1.50rem;
+    }
+}
+
 

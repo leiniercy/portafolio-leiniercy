@@ -75,4 +75,8 @@
     color: var(--foundation-black-black-500);
     font-family: var(--font-open-sans);
 }
-
+@media (min-width: 744px) {
+    .skill-container {
+        width: 40%;
+    }
+}

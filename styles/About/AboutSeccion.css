@@ -1,3 +1,8 @@
+
+.about-container-button{
+    width: 288px;
+}
+
 .about-seccion {
     position: relative;
     background-color: var(--foundation-white-white-200);
@@ -15,3 +20,11 @@
     font-family: var(--font-poppins);
 }
 
+
+@media (min-width: 744px) {
+
+    .about-container-button{
+        width: 60%;
+    }
+
+}

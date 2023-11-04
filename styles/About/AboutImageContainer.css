@@ -14,3 +14,13 @@
     justify-content: center;
 }
 
+@media (min-width: 744px) {
+    .about-image-icon {
+        position: relative;
+        width: 60%;
+        height: 100%;
+        overflow: hidden;
+        flex-shrink: 0;
+    }
+
+}
