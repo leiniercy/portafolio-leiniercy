@@ -1,7 +1,6 @@
 import '@styles/About/ContainerContact.css';
 import CardContact from "@components/CardContact";
 
-
 const ContainerContact = () => {
     return (
         <div className="container-contact">

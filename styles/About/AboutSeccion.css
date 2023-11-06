@@ -1,5 +1,8 @@
 
 .about-container-button{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
     width: 288px;
 }
 
@@ -22,9 +25,19 @@
 
 
 @media (min-width: 744px) {
-
     .about-container-button{
         width: 60%;
     }
 
+}
+
+@media (min-width: 1024px) {
+    .about-seccion{
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 0rem;
+    }
+    .about-container-button{
+        width: 45%;
+    }
 }

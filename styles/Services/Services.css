@@ -19,4 +19,12 @@
     }
 }
 
+@media (min-width: 1024px) {
+    .services {
+        width: 100%;
+        font-size: 1.50rem;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
 

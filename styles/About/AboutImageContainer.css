@@ -24,3 +24,12 @@
     }
 
 }
+
+@media (min-width: 1024px) {
+    .about-image-icon {
+        width: 80%;
+    }
+    .about-image-container {
+        width: 50%;
+    }
+}

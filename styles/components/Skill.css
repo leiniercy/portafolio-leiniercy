@@ -80,3 +80,9 @@
         width: 40%;
     }
 }
+
+@media (min-width: 1024px) {
+    .skill-container {
+        width: 20%;
+    }
+}

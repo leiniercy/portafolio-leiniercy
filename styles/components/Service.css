@@ -96,3 +96,10 @@
         font-size: 1.50rem;
     }
 }
+
+@media (min-width: 1024px) {
+
+    .service-item {
+        width: 35%;
+    }
+}

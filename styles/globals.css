@@ -38,6 +38,8 @@ body {
   --color-gray-100: rgba(0, 0, 0, 0.2);
   --foundation-grey-grey-400: #656363;
   --foundation-black-black-400: #333;
+  --color-gray: #000201;
+  --color-gray-200: rgba(0, 0, 0, 0.2);
 
   /* Gaps */
   --gap-13xl: 2rem;

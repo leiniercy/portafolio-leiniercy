@@ -20,12 +20,21 @@
         flex-direction: row;
         flex-wrap: wrap;
         align-items: center;
-        justify-content: center;
+        justify-content: space-between;
         gap: 4rem;
         text-align: center;
         font-size: 2.62rem;
         color: var(--foundation-black-black-500);
         font-family: var(--font-open-sans);
+    }
+}
+
+@media (min-width: 1024px) {
+    .skills {
+        width: 100%;
+        gap: 2rem;
+        align-items: center;
+        justify-content: space-around;
     }
 }
 

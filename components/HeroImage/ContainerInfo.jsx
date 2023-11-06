@@ -17,10 +17,10 @@ const ContainerInfo = () => {
                 <div className="i-make-the">I make the complex simple</div>
             </div>
             <div className="container-social-media">
-                <SocialMedia name={'iconwhatsapp-regular'} icon={'/assets/img/socialMedia/whatsapp.png'}/>
-                <SocialMedia name={'telegram'} icon={'/assets/img/socialMedia/telegram.png'}/>
-                <SocialMedia name={'facebook-square'} icon={'/assets/img/socialMedia/facebook.png'}/>
-                <SocialMedia name={'github'} icon={'/assets/img/socialMedia/github.png'}/>
+                <SocialMedia name={'iconwhatsapp-regular'} icon={'/assets/icon/whatsapp-regular.svg'}/>
+                <SocialMedia name={'telegram'} icon={'/assets/icon/telegram.svg'}/>
+                <SocialMedia name={'facebook-square'} icon={'/assets/icon/facebook-square.svg'}/>
+                <SocialMedia name={'github'} icon={'/assets/icon/github.svg'}/>
             </div>
         </div>);
 };

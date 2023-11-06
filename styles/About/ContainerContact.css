@@ -12,3 +12,8 @@
     font-family: var(--font-open-sans);
 }
 
+@media (min-width: 1024px) {
+    .container-contact{
+        flex-direction: row;
+    }
+}

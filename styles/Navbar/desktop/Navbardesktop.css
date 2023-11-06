@@ -1,0 +1,74 @@
+.navbar-desktop-logo-name {
+    position: relative;
+    line-height: 120%;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5rem;
+    flex-shrink: 0;
+}
+.navbar-desktop-logo {
+    position: absolute;
+    height: calc(100% - 32px);
+    top: 1rem;
+    bottom: 1rem;
+    left: 0rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+a{
+    text-decoration: none;
+}
+a .navbar-desktop-menu-item {
+    color: var(--color-gray);
+    position: relative;
+    line-height: 120%;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.navbar-desktop-menu {
+    position: absolute;
+    height: calc(100% - 32px);
+    top: 1rem;
+    right: 0rem;
+    bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+    color: var(--color-gray);
+}
+.navbar-desktop {
+    position: fixed;
+    top: 0;
+    z-index: 200;
+    background-color: #fff;
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0rem;
+    box-sizing: border-box;
+    gap: 37.56rem;
+    width: 80%;
+    height: 4rem;
+    overflow: hidden;
+    text-align: center;
+    font-size: 1.50rem;
+    color: var(--foundation-black-black-500);
+    font-family: var(--font-poppins);
+
+}
+
+
+@media (min-width: 1024px) {
+    .navbar-desktop {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

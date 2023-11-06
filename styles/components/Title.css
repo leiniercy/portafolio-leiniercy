@@ -94,3 +94,8 @@
 
 }
 
+@media (min-width: 1024px){
+    .title {
+        align-items: flex-start;
+    }
+}
