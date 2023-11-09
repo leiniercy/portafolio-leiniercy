@@ -14,3 +14,8 @@
     font-family: var(--font-poppins);
 }
 
+@media (min-width: 1024px) {
+    .service-seccion {
+        width: 80%;
+    }
+}

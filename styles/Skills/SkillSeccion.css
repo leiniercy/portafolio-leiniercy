@@ -12,3 +12,9 @@
     font-family: var(--font-poppins);
 }
 
+@media (min-width: 1024px) {
+    .skill-seccion{
+        width: 80%;
+    }
+}
+

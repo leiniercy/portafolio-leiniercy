@@ -48,6 +48,7 @@
         position: relative;
         border-radius: 50%;
         background-color: var(--foundation-blue-blue-500);
+        border: 1.7px solid #fff;
         width: 3.24rem;
         height: 3.24rem;
         z-index: 0;

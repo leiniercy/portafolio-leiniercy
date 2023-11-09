@@ -1,4 +1,3 @@
-
 import '@styles/About/AboutSeccion.css';
 import Title from "@components/Title";
 import ContainerAbout from "@components/About/ContainerAbout";
@@ -11,17 +10,17 @@ import ContainerContact from "@components/About/ContainerContact";
 
 const AboutSeccion = () => {
     return (
-        <div id="about" className="about-seccion">
-            <Title name={'RESUME'}/>
-            <ContainerAbout/>
-            <ContainerName/>
-            <AboutImageContainer/>
-            <div className="about-container-button">
-                <ContainerAboutDescription/>
-                <Button name={'DOWNLOAD CV'}/>
-            </div>
-            <ContainerContact/>
-        </div>);
+            <div id="about" className="about-seccion">
+                <Title name={'RESUME'}/>
+                <ContainerAbout/>
+                <ContainerName/>
+                <AboutImageContainer/>
+                <div className="about-container-button">
+                    <ContainerAboutDescription/>
+                    <Button name={'DOWNLOAD CV'}/>
+                </div>
+                <ContainerContact/>
+            </div>);
 };
 
 export default AboutSeccion;

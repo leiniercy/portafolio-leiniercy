@@ -23,6 +23,10 @@
     font-family: var(--font-poppins);
 }
 
+.about-container{
+    width: 100%;
+}
+
 
 @media (min-width: 744px) {
     .about-container-button{
@@ -36,6 +40,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         padding: 0rem;
+        width: 80%;
     }
     .about-container-button{
         width: 45%;
