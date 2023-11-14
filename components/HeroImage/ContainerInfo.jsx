@@ -1,5 +1,6 @@
 import '@styles/HeroImage/ContainerInfo.css';
 import SocialMedia from "@components/SocialMedia";
+import TypingEffect from "@components/HeroImage/TypingEffect";
 
 const ContainerInfo = () => {
     return (
@@ -8,10 +9,9 @@ const ContainerInfo = () => {
                 <div className="hi-there">Hi there!</div>
             </div>
             <div className="container-presentation">
-                <div className="i-am-developer-container">
-                    <span>{`I am `}</span>
-                    <span className="developer">{`Developer `}</span>
-                </div>
+                <div className="i-am">I am</div>
+                <TypingEffect/>
+                {/*<div className="developer">{`Developer `}</div>*/}
             </div>
             <div className="container-description">
                 <div className="i-make-the">I make the complex simple</div>

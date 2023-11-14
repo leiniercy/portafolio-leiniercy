@@ -3,7 +3,7 @@ import '@styles/components/Skill.css';
 
 const Skill = (props) => {
     return (
-        <div className="skill-container">
+        <div className="skill-container" data-aos="fade-up">
             <div className="skill-elipses-parent">
                 <div className="skill-elipses">
                     <img className="skill-elipses-child" alt={props.name} src={props.elipse} />

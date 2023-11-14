@@ -15,7 +15,7 @@ const AboutSeccion = () => {
                 <ContainerAbout/>
                 <ContainerName/>
                 <AboutImageContainer/>
-                <div className="about-container-button">
+                <div className="about-container-button" data-aos="fade-left">
                     <ContainerAboutDescription/>
                     <Button name={'DOWNLOAD CV'}/>
                 </div>

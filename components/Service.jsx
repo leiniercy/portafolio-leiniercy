@@ -3,7 +3,7 @@ import '@styles/components/Service.css';
 const Service = (props) => {
 
     return (<>
-        <div className="service-item">
+        <div className="service-item" data-aos="fade-up">
             <div className="service-icon-seccion">
                 <div className="service-icon-seccion-child" />
                 <img className="service-icon"  alt={props.name} src={props.icon} />
